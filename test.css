@@ -1,0 +1,88 @@
+body {
+	background-image: url('dark_wood.png') ;
+}
+
+p {
+	color: white;
+	font-family: "Arial";
+	font-weight: "bold";
+}
+
+div {	
+	background-color: #8E41D5;
+}
+
+a {
+	color: white;
+    font-weight: bold;
+    font-size: 24px;
+	
+}
+
+
+#Header {
+	width: 500px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom: 10px;
+	border: solid 8px black;
+	text-align:center;
+	
+}
+
+#Header h1{
+	font-size: 60px; 
+	font-family: "Passion One"; 
+	color: #FFBC00; 
+	font-weight: bold;
+	
+
+}
+
+#LeftNav {
+	width: 400px;
+	border: solid 8px black;
+	float:left;
+	text-align:center;
+	paddle-bottom: 8px
+}
+
+#LeftNav img {
+	opacity: 0.7;
+  	filter: alpha(opacity=70);
+	
+}
+
+#LeftNav ul {
+<ul>
+  <li><a href="#The Verge">Home</a></li>
+  <li><a href="#Surfline">News</a></li>
+  <li><a href="#WORDSTAR">Contact</a></li>
+  <li><a href="#Amazon">About</a></li>
+  <li><a href="#The Onion">About</a></li>
+</ul>
+
+}
+
+#LeftNav h3{
+
+}
+
+#Content {
+	width: 700px;
+	margin-bottom: 10px;
+	border: solid 8px black
+	text-align:center;
+	p.dotted {border-style: dotted;}
+}
+
+#Footer{
+	border: solid 8px black
+	text-align:center;
+}
+
+ul {
+	list-style-type:none;
+	padding-left: 0px;
+}
+
